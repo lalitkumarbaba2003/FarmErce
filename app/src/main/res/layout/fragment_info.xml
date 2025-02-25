@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.InfoFragment"
+    android:background="#F3F1F1">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        app:cardElevation="10dp"
+        app:cardCornerRadius="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/light_green"
+            android:text="Please read below information for better usage of our app"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+    </androidx.cardview.widget.CardView>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderforupdates"
+                android:fontFamily="@font/alice"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="10dp"
+                android:text="@string/Info_1"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderforupdates"
+                android:fontFamily="@font/alice"
+                android:lineSpacingExtra="5dp"
+                android:text="@string/Info_2"
+                android:textColor="@color/black"
+                android:padding="5dp"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/alice"
+                android:textStyle="normal"
+                android:background="@drawable/borderforupdates"
+                android:text="@string/Info_3"
+                android:padding="5dp"
+                android:lineSpacingExtra="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderforupdates"
+                android:fontFamily="@font/alice"
+                android:lineSpacingExtra="10dp"
+                android:padding="5dp"
+                android:text="@string/Info_4"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/borderforupdates"
+                android:fontFamily="@font/alice"
+                android:lineSpacingExtra="10dp"
+                android:textColor="@color/black"
+                android:text="@string/Info_5"
+                android:textSize="20sp"
+                android:padding="5dp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:fontFamily="@font/alice"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                android:background="@drawable/borderforupdates"
+                android:text="@string/Info_6"
+                android:padding="5dp"
+                android:lineSpacingExtra="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alice"
+                android:background="@drawable/borderforupdates"
+                android:text="@string/Info_7"
+                android:lineSpacingExtra="10dp"
+                android:padding="5dp"
+                android:textColor="@color/med_green"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.farmerce.fragments.HomeFragment"
+        android:label="FarmErce"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_nav_category"
+            app:destination="@id/nav_category" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_Cart"
+            app:destination="@id/nav_Cart" />
+        <action
+            android:id="@+id/action_nav_home_to_nav_Updates"
+            app:destination="@id/nav_Updates" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.farmerce.fragments.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_category"
+        android:name="com.example.farmerce.fragments.CategoryFragment"
+        android:label="Categories"
+        tools:layout="@layout/fragment_category" />
+
+    <fragment
+        android:id="@+id/nav_new_Products"
+        android:name="com.example.farmerce.fragments.NewProductsFragment"
+        android:label="New Products"
+        tools:layout="@layout/fragment_new_products" />
+
+    <fragment
+        android:id="@+id/nav_Offers"
+        android:name="com.example.farmerce.fragments.OffersFragment"
+        android:label="Offers"
+        tools:layout="@layout/fragment_offers" />
+
+    <fragment
+        android:id="@+id/nav_Cart"
+        android:name="com.example.farmerce.fragments.MyCartFragment"
+        android:label="Cart"
+        tools:layout="@layout/fragment_my_cart" >
+        <action
+            android:id="@+id/action_nav_Cart_to_initialCartViewFragment"
+            app:destination="@id/initialCartViewFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_Orders"
+        android:name="com.example.farmerce.fragments.OrdersFragment"
+        android:label="Orders"
+        tools:layout="@layout/fragment_my_orders" />
+    <fragment
+        android:id="@+id/initialCartViewFragment"
+        android:name="com.example.farmerce.fragments.InitialCartViewFragment"
+        android:label="fragment_initial_cart_view"
+        tools:layout="@layout/fragment_initial_cart_view" >
+        <action
+            android:id="@+id/action_initialCartViewFragment_to_nav_Cart"
+            app:destination="@id/nav_Cart" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_Updates"
+        android:name="com.example.farmerce.fragments.InfoFragment"
+        android:label="Info"
+        tools:layout="@layout/fragment_info" />
+
+</navigation>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "605041214408",
+    "project_id": "farmerce-b2b46",
+    "storage_bucket": "farmerce-b2b46.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605041214408:android:8b8bd32182a04319edf6fd",
+        "android_client_info": {
+          "package_name": "com.example.farmerce"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0xrOmZXCMjOW5lDA1pEMLDtSfg_4o4Bk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

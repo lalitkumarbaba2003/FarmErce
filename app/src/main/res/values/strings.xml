@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">FarmErce</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="Info_1"><b>FarmErce</b> is a mobile application developed for <i>E-Commerce of vegetables.</i></string>
+    <string name="Info_2"> You can search vegetables on the home page based upon the categories, as we have categorized the vegetables
+        based upon its type.</string>
+    <string name="Info_3"> For example, we have Beetroot which falls under root vegetables and hence it is categorized into Root
+        Category of all categories.</string>
+    <string name="Info_4"> The different categories of vegetables are,
+    \n Bulb, Flower, Fruity, Leafy, Root, Seed and Stem Vegetables which include product lists.</string>
+    <string name="Info_5">So, <i>Bulb vegetables: </i> Garlic, Onion, Spring Onion \n
+        <i>Flower vegetables: </i>  Broccoli, Cauliflower \n
+        <i>Fruity vegetables: </i> Bittergourd, Bottlegourd, Brinjal, Courgette, Cucumber,
+        Green Capsicum, Green Chilli, Lady finger, Mix Capsicum, Mix Chilli, Pumpkin, Red capsicum
+        Red Chilli, Tomato, Yellow Capsicum \n
+        <i>Leafy vegetables: </i> Cabbage, Coriander, Curry leaves, Dill(Sabbasige), Fenugreek(Methi), Lettuce, Spinach \n
+        <i>Root vegetables: </i> Beetroot, Carrot, Ginger, Potato, Radish, Sweet Potato, Turnip \n
+        <i>Seed vegetables: </i> Beans, Drumstick, Green Peas, Legumes, Sweet Corn \n
+        and <i>Stem vegetables: </i> Asparagus, Celery, Kohlrabi.
+    </string>
+    <string name="Info_6">Order status can be tracked and will be updated like <i>Order Confirmed</i>
+        for confirming the order, <i>On the Way</i> for the product which are about to be delivered and <i>Order Delivered</i> for
+        the product that is delivered.
+    </string>
+    <string name="Info_7">Stay tuned!!! \n
+        Developed by <u>LJSA</u>
+    </string>
+</resources>
